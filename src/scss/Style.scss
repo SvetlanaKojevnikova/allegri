@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant:wght@400;500;700&family=Work+Sans&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: "Cormorant", serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 1374px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.container_small {
+  width: 100%;
+  max-width: 1137px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+@import "header.scss";
